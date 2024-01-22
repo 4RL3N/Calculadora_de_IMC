@@ -26,7 +26,7 @@ def janela_popup(x):
     Label(popup, text=f"Seu IMC é de '{x:.2f}'", font="Helvetica 15 bold").pack()
     texto = infos(x)
     #Exibindo o resultado
-    Label(popup, text=texto, font="Helvetica 12 bold").pack()
+    Label(popup, text=texto, font="Helvetica 11").pack()
     #Fechando o popup
     Button(popup, text="Fechar", command=popup.destroy).pack(pady=5)
 
