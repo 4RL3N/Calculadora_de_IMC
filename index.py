@@ -24,7 +24,7 @@ def janela_popup(x):
     popup.geometry("450x125")
     popup.title("Resultado")
     Label(popup, text=f"Seu IMC é de '{x:.2f}'", font="Helvetica 15 bold").pack()
-    texto, texto2 = infos(x)
+    texto = infos(x)
     #Exibindo o resultado
     Label(popup, text=texto, font="Helvetica 12 bold").pack()
     #Fechando o popup
