@@ -27,7 +27,6 @@ def janela_popup(x):
     texto, texto2 = infos(x)
     #Exibindo o resultado
     Label(popup, text=texto, font="Helvetica 12 bold").pack()
-    Label(popup, text=texto2, font="Helvetica 11").pack()
     #Fechando o popup
     Button(popup, text="Fechar", command=popup.destroy).pack(pady=5)
 
