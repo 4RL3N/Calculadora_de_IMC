@@ -71,9 +71,11 @@ campo_altura.pack()
 frame = tk.Frame(janela)
 frame.pack(pady=10) #pady é o espaco, no caso 10 pixeis de espaço entre o frame e as bordas da janela
 
+#botao confimra, que aciona a funcao de calcular o imc e exibir em um popup
 botao_confirma = Button(frame, text="Confirmar", command=calcular_imc)
 botao_confirma.grid(row=0, column=1)
 botao_apagar = Button(frame, text="Limpar", command=limpar)
 botao_apagar.grid(row=0, column=0)
 
+#loop da aplicacao
 janela.mainloop()
