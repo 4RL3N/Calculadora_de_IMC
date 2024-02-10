@@ -1,4 +1,3 @@
 # Calculadora_de_IMC
-### Esse projeto consiste em uma calculadora de Indice de Massa Corporal, que é dado por uma equação (seu peso em KG, dividido por sua altura em metros ao quadrado).
-### A calculadora foi feita com a linguagem de programação Python, ela tem uma interface de usuário que foi feita usando a biblioteca tkinter do proprio Python.
-### Resolvi fazer esse projeto principalmente para aprofundar meus conhecimentos em Python, e para praticar comandos Git e um pouco de Front end.
+#### Este projeto consiste em uma calculadora de Índice de Massa Corporal, que é dado por uma equação (seu peso em kg, dividido pelo quadrado de sua altura em metros).
+#### A calculadora foi feita com a linguagem de programação Python. Ela tem uma interface de usuário que foi criada usando a biblioteca Tkinter do próprio Python. Decidi fazer este projeto principalmente para aprofundar meus conhecimentos em Python, e para praticar comandos Git e um pouco de front-end.
